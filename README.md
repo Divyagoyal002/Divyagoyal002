@@ -1,7 +1,8 @@
-- 👋 Hi, I’m @Divyagoyal002
-- 👀 I’m interested in programming.
-- 🌱 I’m currently learning coding(c/c++,python),pursuing mtech in artificial intelligence and data science
-- 💞️ I’m looking for an internship for improving my skills and learning by helping an organisation .
+- 👋 Hi, I’m Divya Goyal
+- 👀 I’m interested in Data Science and Artificial intelligence .
+- 💻 I have the knowledge of html, CSS, JavaScript, Microsoft Excel, Python with SQL(PDBC) 
+- 🌱 I’m currently learning programming languages like (C/C++,Advance Python),pursuing mtech in artificial intelligence and data science
+- 💞️ I’m looking for an internship for improving my skills and learning and contributing to organisation .
 - 📫 How to reach me mail divyagoyalbg@gmail.com
 
 <!---
