@@ -1,3 +1,8 @@
+<br>
+<hr>
+![Divyagoyal002](/divyabnner.jpg "Font banner ")
+<hr>
+<br>
 - 👋 Hi, I’m Divya Goyal
 - 🙎‍♀️ I am Outreach and Public Relations Lead at Google Developers Students Club of School of Data Science and Forecasting.
 - 👀 I’m interested in Data Science and Artificial intelligence .
