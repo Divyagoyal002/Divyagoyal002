@@ -12,61 +12,9 @@
 
 ---
 
-### 🧠 About me
-
-- 🤖 AI/ML Engineer at **Onetab Generative AI**, building production agentic AI for a regulated fintech platform (US investment advisory firms)
-- 🧩 I design **multi-agent systems**, **RAG pipelines** and **Python microservices** that connect LLMs to real business APIs
-- 🎙️ I've shipped **real-time multilingual voice agents** (English / Hindi / Telugu) on the OpenAI Realtime API
-- 📈 I care about AI that holds up in production: guardrails, evals, tracing and cost monitoring with **Langfuse**
-- 🎓 Integrated M.Tech in AI & Data Science, DAVV Indore · GATE DA 2025 qualified
-- 👩‍🏫 Mentored 8 AI/ML interns through to shipping production components
-
----
-
-### ⭐ Featured project
-
-### [Merchant Ops Copilot](https://github.com/Divyagoyal002/merchant-ops-copilot) · [Live demo](https://merchant-ops-copilot.onrender.com)
-
-A Hindi/English ops agent for Razorpay merchants. Ask *"Why did yesterday's settlement come in low?"* or *"ऑर्डर 1058 का पूरा पैसा वापस कर दो"* and it answers from payments, orders, refunds and settlements through the **official Razorpay MCP server**.
-
-- 🧭 **LangGraph agent** with a review → approval → execute path; refunds and payment links are drafted, but nothing moves until the merchant clicks **Approve** (`interrupt()` + checkpointer)
-- 🔒 **Layered guardrails:** the model only gets 10 allowlisted read-only tools, proposals are validated in code, idempotency keys prevent double refunds, test keys only
-- 📬 **Daily health digest** in Hindi or English: failure rate, top failure reasons, refund spikes
-- 🧪 **Evals in CI:** 31 cases across English, Hindi and Hinglish, including prompt-injection attempts; the build fails on any unapproved execution
-- 🆓 Runs on free tiers: open-weight models on Groq, Gradio on Render, Langfuse tracing, GitHub Actions
-
-`LangGraph` `MCP` `Groq` `Gradio` `Langfuse` `GitHub Actions` `Render`
-
----
-
-### 💼 Professional work
-
-*Built at Onetab Generative AI for the company and its clients, so the code is private.*
-
-**TACTIVE: agentic AI platform for US investment advisory firms**
-A planning agent routes each query to 5 specialized retrieval agents (financials, CRM, documents, portfolio, compliance), with 22 REST APIs as agent tools and a unified Redis vector store.
-`⚡ search latency ~500ms → <100ms` · `🧹 duplicated tool code ~1,500 → ~200 lines` · `🛡️ SEC/FINRA compliance agent with audit trails`
-
-**Multilingual AI voice agent for Stock2Track (client project)**
-Real-time English/Hindi/Telugu phone agent on the OpenAI Realtime API with function-calling tools, plus a post-call agent writing schema-constrained JSON into the client's CRM.
-`📞 55% demo-booking conversion on qualified calls`
-
-**Priya: bilingual AI sales agent**
-Outbound voice agent with a deterministic control-tag protocol, so call actions (hangup, callback, demo booked) run in backend code, not model text.
-
-**OneCode: AI web app generator**
-Prompt-to-Next.js and screenshot-to-HTML/CSS on the Claude API, with an intent classifier for edits and a self-correcting build-fix loop.
-`⏱️ ~30% faster development`
-
----
-
-### 🏆 Hackathons
-
-**Crewzy: AI workforce platform** · IIT Indore E-Summit Hackathon (Mappls-sponsored)
-Natural-language-to-MongoDB query agent with an LLM authorization check, plus embedding- and distance-based task assignment.
-
-**AI timetable generator** · Smart India Hackathon 2025
-Constraint-based scheduling agent: 80% faster scheduling and 85% fewer conflicts than manual timetabling.
+- 🤖 AI/ML Engineer at **Brain Inventory**, building agentic AI, RAG and voice agents
+- 🚀 Latest build: **[Merchant Ops Copilot](https://github.com/Divyagoyal002/merchant-ops-copilot)**, a Hindi/English agent for Razorpay merchants · [Live demo](https://merchant-ops-copilot.onrender.com)
+- 🎓 M.Tech (Integrated) in AI & Data Science, DAVV Indore · GATE DA 2025
 
 ---
 
@@ -91,12 +39,9 @@ Constraint-based scheduling agent: 80% faster scheduling and 85% fewer conflicts
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white" alt="Gradio" />
   <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render" />
 </p>
 
@@ -122,10 +67,9 @@ Constraint-based scheduling agent: 80% faster scheduling and 85% fewer conflicts
 ### 📊 GitHub stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=divyagoyal002&show_icons=true&locale=en" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=divyagoyal002&show_icons=true&locale=en&layout=compact" alt="Top languages" />
+  <img src="https://streak-stats.demolab.com?user=Divyagoyal002&theme=dark&hide_border=true" alt="GitHub streak" />
 </p>
 
 ---
 
-<p align="center"><i>Open to AI/ML engineering roles · Let's build agents that actually ship 🚀</i></p>
+<p align="center"><i>Let's build agents that actually ship 🚀</i></p>
